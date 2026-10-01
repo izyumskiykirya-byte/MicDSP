@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">АвтоЗвук DSP</string>
+    <string name="notification_channel_name">DSP Аудиопроцессор</string>
+    <string name="notification_channel_desc">Служба обработки аудио в реальном времени для автомагнитолы</string>
+    <string name="notification_title">АвтоЗвук DSP активен</string>
+    <string name="notification_text">Микрофонный DSP конвейер запущен</string>
+    <string name="notification_stop">Остановить</string>
+
+    <!-- Presets -->
+    <string name="preset_city">Город / Шумная дорога</string>
+    <string name="preset_highway">Трасса (Высокая скорость)</string>
+    <string name="preset_quiet">Тихий салон (Стоянка)</string>
+    <string name="preset_studio">Студийный голос</string>
+    <string name="preset_custom">Пользовательский</string>
+</resources>

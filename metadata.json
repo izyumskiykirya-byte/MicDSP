@@ -1,0 +1,6 @@
+{
+  "name": "АвтоЗвук DSP",
+  "description": "Автомобильный DSP аудиопроцессор и микшер для автомагнитол с аппаратным и программным шумоподавлением, эквалайзером и компрессором.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

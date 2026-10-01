@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Equalizer vertical bars in center safe zone -->
+    <!-- Bar 1: Low Cut (Cyan) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M32,56 L36,56 A2,2 0 0,1 38,58 L38,72 A2,2 0 0,1 36,74 L32,74 A2,2 0 0,1 30,72 L30,58 A2,2 0 0,1 32,56 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M32,48 L36,48 A2,2 0 0,1 38,50 L38,52 A2,2 0 0,1 36,54 L32,54 A2,2 0 0,1 30,52 L30,50 A2,2 0 0,1 32,48 Z" />
+
+    <!-- Bar 2: Low-Mid (Cyan) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M42,42 L46,42 A2,2 0 0,1 48,44 L48,72 A2,2 0 0,1 46,74 L42,74 A2,2 0 0,1 40,72 L40,44 A2,2 0 0,1 42,42 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M42,34 L46,34 A2,2 0 0,1 48,36 L48,38 A2,2 0 0,1 46,40 L42,40 A2,2 0 0,1 40,38 L40,36 A2,2 0 0,1 42,34 Z" />
+
+    <!-- Bar 3: Center Mid (Amber / Gold Car Accent) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M52,28 L56,28 A2,2 0 0,1 58,30 L58,72 A2,2 0 0,1 56,74 L52,74 A2,2 0 0,1 50,72 L50,30 A2,2 0 0,1 52,28 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M52,20 L56,20 A2,2 0 0,1 58,22 L58,24 A2,2 0 0,1 56,26 L52,26 A2,2 0 0,1 50,24 L50,22 A2,2 0 0,1 52,20 Z" />
+
+    <!-- Bar 4: High-Mid (Cyan) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M62,38 L66,38 A2,2 0 0,1 68,40 L68,72 A2,2 0 0,1 66,74 L62,74 A2,2 0 0,1 60,72 L60,40 A2,2 0 0,1 62,38 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M62,30 L66,30 A2,2 0 0,1 68,32 L68,34 A2,2 0 0,1 66,36 L62,36 A2,2 0 0,1 60,34 L60,32 A2,2 0 0,1 62,30 Z" />
+
+    <!-- Bar 5: High / Air (Cyan) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M72,50 L76,50 A2,2 0 0,1 78,52 L78,72 A2,2 0 0,1 76,74 L72,74 A2,2 0 0,1 70,72 L70,52 A2,2 0 0,1 72,50 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M72,42 L76,42 A2,2 0 0,1 78,44 L78,46 A2,2 0 0,1 76,48 L72,48 A2,2 0 0,1 70,46 L70,44 A2,2 0 0,1 72,42 Z" />
+
+    <!-- Baseline connector / DSP indicator -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,78 L82,78 A2,2 0 0,1 84,80 L84,81 A2,2 0 0,1 82,83 L26,83 A2,2 0 0,1 24,81 L24,80 A2,2 0 0,1 26,78 Z" />
+
+    <!-- Wave curve over the bars -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="2.5"
+        android:pathData="M24,62 Q38,50 54,26 T84,54" />
+</vector>
